@@ -34,7 +34,7 @@
 ### OpenCode
 
 ```bash
-git clone https://github.com/wuxiang999/vela-quickapp.git ~/.agents/skills/vela-quickapp
+git clone https://github.com/wuxiang999/arclyric-vela-skill.git ~/.agents/skills/vela-quickapp
 # 如果 skill 目录不在默认扫描路径，软链一下：
 ln -sfn ~/.agents/skills/vela-quickapp ~/.opencode/skills/vela-quickapp
 ```
@@ -44,7 +44,7 @@ skill 在会话启动时扫描，装完开新会话才出现在列表里。
 ### Claude Code
 
 ```bash
-git clone https://github.com/wuxiang999/vela-quickapp.git ~/.claude/skills/vela-quickapp
+git clone https://github.com/wuxiang999/arclyric-vela-skill.git ~/.claude/skills/vela-quickapp
 ```
 
 ## 触发
@@ -104,4 +104,4 @@ python3 scripts/lint_ux.py /path/to/project/src --strict   # warning 也算失�
 - 布局与通信部分为本项目真机踩坑总结，公开依据列在 `references/layout-text.md` 与 `references/interconnect.md`；
 - 本仓库自身：[MIT](LICENSE) © 2026 LANHU199。
 
-配套项目：[弧光歌词 ARCLYRIC](https://github.com/wuxiang999/arclyric)
+配套项目：[弧光歌词 ARCLYRIC](https://github.com/wuxiang999/Arclyric)
